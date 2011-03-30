@@ -1,0 +1,10 @@
+CTP http://202.109.110.121/index.htm
+CTP API http://202.109.110.121/api/
+海洋部落 http://www.oceantribe.org
+
+Compilation:
+mv thosttraderapi.so libthosttraderapi.so
+g++ -L./ -lthosttraderapi tradeapitest.cpp
+
+Download:
+wget http://202.109.110.121/api/lin64api.rar
