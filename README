@@ -8,3 +8,4 @@ g++ -L./ -lthosttraderapi tradeapitest.cpp
 
 Download:
 wget http://202.109.110.121/api/lin64api.rar
+快期交易系统, 基于CTP的模拟交易系统, 帐号352032密码888888, www.kuaiqi.net, http://202.109.110.121/sim.htm
