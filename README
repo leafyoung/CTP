@@ -1,6 +1,7 @@
 CTP http://202.109.110.121/index.htm
 CTP API http://202.109.110.121/api/
 海洋部落 http://www.oceantribe.org
+程序化交易者论坛 http://www.programtrader.net/
 
 Compilation:
 mv thosttraderapi.so libthosttraderapi.so
@@ -9,3 +10,7 @@ g++ -L./ -lthosttraderapi tradeapitest.cpp
 Download:
 wget http://202.109.110.121/api/lin64api.rar
 快期交易系统, 基于CTP的模拟交易系统, 帐号352032密码888888, www.kuaiqi.net, http://202.109.110.121/sim.htm
+
+服务器地址:
+char demoTradeUrl[] = "tcp://asp-sim2-front1.financial-trading-platform.com:26205";
+char demoQuoteUrl[] = "tcp://asp-sim2-md1.financial-trading-platform.com:26213";

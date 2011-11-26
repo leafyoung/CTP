@@ -28,6 +28,7 @@ public:
   printf("BrokerID: ");
   scanf("%s", &g_chBrokerID);
   strcpy(reqUserLogin.BrokerID,g_chBrokerID);
+  //strcpy(reqUserLogin.BrokerID,"001");
   //get userid
   printf("userid: ");
   scanf("%s",&g_chUserID);
@@ -147,7 +148,8 @@ int main()
  //  TERT_QUICK: 只传送登录后公共流的内容
  pUserApi->SubscribePublicTopic(THOST_TERT_RESUME);
  //设置交易托管系统服务的地址，可以注册多个地址备用
- pUserApi->RegisterFront("tcp://172.16.0.31:57205");
+ //pUserApi->RegisterFront("tcp://172.16.0.31:57205");
+ pUserApi->RegisterFront("tcp://asp-sim2-md1.financial-trading-platform.com:26213");
  //使客户端开始与后台服务器建立连接
  pUserApi->Init();
  //客户端等待报单操作完成
